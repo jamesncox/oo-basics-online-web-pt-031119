@@ -46,3 +46,19 @@
 #   end
  
 # end
+
+class Shoe
+  
+  attr_accessor :color :size :material
+  attr_reader :condition
+  
+  def initialize(brand)
+    @brand = brand
+  end
+  
+  def cobble
+    @condtion = "new"
+    puts "Your shoe is as good as new!"
+  end
+  
+end
