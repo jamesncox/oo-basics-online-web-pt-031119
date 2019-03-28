@@ -44,5 +44,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  
+  def new_shoe(condition)
+    if @condition == 
 end
