@@ -45,5 +45,9 @@ class Shoe
   end
   
   def new_shoe(condition)
-    if @condition == 
+    if @condition == "old"
+      puts cobble
+    else
+      puts "new"
+    end
 end
