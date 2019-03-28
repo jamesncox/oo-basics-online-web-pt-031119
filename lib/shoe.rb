@@ -40,15 +40,8 @@ class Shoe
     @condition
   end
   
-  def cobble
-    puts "Your shoe is as good as new!"
-  end
-  
-  def new_shoe(condition)
-    if @condition == "old"
-      puts cobble
-    else
-      puts "new"
-    end
-  end
+  # def cobble
+  #   puts "Your shoe is as good as new!"
+  # end
+ 
 end
